@@ -1,0 +1,54 @@
+node-ua-parser-js (0.7.24+ds-1) unstable; urgency=medium
+
+  * Team upload
+  * Fix debian/watch
+  * New upstream version 0.7.24+ds (Closes: #985568, CVE-2021-27292)
+
+ -- Yadd <yadd@debian.org>  Sat, 20 Mar 2021 08:56:15 +0100
+
+node-ua-parser-js (0.7.23+ds-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.1
+  * Use dh-sequence-nodejs
+  * New upstream version 0.7.23 (Closes: CVE-2020-7793)
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 15 Dec 2020 12:21:18 +0100
+
+node-ua-parser-js (0.7.22+ds-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Use secure URI in Homepage field.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Update standards version to 4.1.1, no changes needed.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Use pkg-js-tools auto install
+  * Add "Multi-Arch: foreign"
+  * Enable upstream test using mocha
+  * Exclude dist/* form import
+  * New upstream version 0.7.22+ds (Closes: CVE-2020-7733)
+  * Update copyright
+  * Reproduce upstream build using uglifyjs.terser
+  * Install link in /usr/share/javascript
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 17 Sep 2020 10:32:42 +0200
+
+node-ua-parser-js (0.7.14-1) unstable; urgency=low
+
+  * Initial release (Closes: #877179)
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 29 Sep 2017 19:12:39 +0530
