@@ -1,0 +1,6 @@
+# Generic types-* path
+add-component-copyright types-*
+# Test data
+source-is-missing [*test/test.js*]
+source-contains-prebuilt-javascript-object [*test/test.js*]
+very-long-line-length-in-source-file *test/test.js*

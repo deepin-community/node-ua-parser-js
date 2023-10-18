@@ -1,3 +1,49 @@
+node-ua-parser-js (0.8.1+ds+~0.7.36-3) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.2, no changes needed.
+  * Remove unsafe and ueless regex (Closes: CVE-2022-25927)
+
+ -- Yadd <yadd@debian.org>  Sun, 09 Apr 2023 07:47:39 +0400
+
+node-ua-parser-js (0.8.1+ds+~0.7.36-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update lintian override info format in d/source/lintian-overrides on line
+    4-5.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 01:33:58 +0000
+
+node-ua-parser-js (0.8.1+ds+~0.7.36-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * New upstream version 0.8.1+ds+~0.7.36
+
+ -- Yadd <yadd@debian.org>  Tue, 18 Oct 2022 18:00:51 +0200
+
+node-ua-parser-js (0.7.31+ds+~0.7.36-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Embed typescript declarations
+  * New upstream version 0.7.31+ds+~0.7.36
+  * Update lintian overrides
+  * Update copyright
+  * Update build
+  * Add build dependencies to node-babel-parser and node-safe-regex
+
+ -- Yadd <yadd@debian.org>  Fri, 14 Jan 2022 11:48:38 +0100
+
+node-ua-parser-js (0.7.24+ds-2) unstable; urgency=medium
+
+  * team upload
+
+  * use and build-depend on terser (not uglifyjs.terser)
+
+ -- Jonas Smedegaard <dr@jones.dk>  Thu, 02 Dec 2021 21:41:30 +0100
+
 node-ua-parser-js (0.7.24+ds-1) unstable; urgency=medium
 
   * Team upload

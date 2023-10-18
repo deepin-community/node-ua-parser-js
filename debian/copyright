@@ -2,16 +2,21 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ua-parser-js
 Upstream-Contact: https://github.com/faisalman/ua-parser-js/issues
 Source: https://github.com/faisalman/ua-parser-js
+ https://registry.npmjs.org/@types/ua-parser-js
 Files-Excluded: dist
 
 Files: *
-Copyright: 2012-2019 Faisal Salman <f@faisalman.com>
-License: GPL-2 or Expat
+Copyright: 2012-2021 Faisal Salman <f@faisalman.com>
+License: Expat
 
 Files: debian/*
 Copyright: 2017 Pirate Praveen <praveen@debian.org>
- 2020 Yadd <yadd@debian.org>
-License: GPL-2 or Expat
+ 2020-2022 Yadd <yadd@debian.org>
+License: Expat or GPL-2
+
+Files: types-*/*
+Copyright: Microsoft Corporation
+License: Expat
 
 License: Expat
  Permission is hereby granted, free of charge, to any person
