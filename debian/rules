@@ -9,5 +9,5 @@
 
 override_dh_auto_build:
 	mkdir -p dist
-	uglifyjs.terser src/ua-parser.js -o dist/ua-parser.min.js --comments '/UAParser\\.js/'
-	uglifyjs.terser src/ua-parser.js -o dist/ua-parser.pack.js --comments '/UAParser\\.js/' --compress --mangle
+	terser src/ua-parser.js -o dist/ua-parser.min.js --comments '/^ UA/'
+	terser src/ua-parser.js -o dist/ua-parser.pack.js --comments '/^ UA/' --compress --mangle

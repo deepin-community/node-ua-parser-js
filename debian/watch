@@ -2,5 +2,10 @@ version=4
 opts=\
 dversionmangle=auto,\
 repacksuffix=+ds,\
-filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-ua-parser-js-$1.tar.gz/ \
- https://github.com/faisalman/ua-parser-js/tags .*/archive/.*/v?([\d\.]+).tar.gz
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-ua-parser-js-$1/ \
+ https://github.com/faisalman/ua-parser-js/tags .*/archive/.*/v?(\d[\d\.]*).tar.gz group
+
+# It is not recommended use npmregistry. Please investigate more.
+# Take a look at https://wiki.debian.org/debian/watch/
+opts="searchmode=plain,component=types-ua-parser-js,ctype=nodejs,pgpmode=none,filenamemangle=s/^.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-types-ua-parser-js-$1/" \
+ https://registry.npmjs.org/@types/ua-parser-js https://registry.npmjs.org/@types/ua-parser-js/-/ua-parser-js-([\d\.]+)@ARCHIVE_EXT@ group
